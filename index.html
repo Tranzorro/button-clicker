@@ -17,26 +17,50 @@
             <input type="search Centered" placeholder="Search..." class="border">
         </div>
         <div class="Button ">
-            <button class="LogInOut Centered border"> Login</button>
+            <button class="LogInOut Centered border shadow" id="Login" onclick="swaptext()">Login</button>
         </div>
     </div>
     <div class="PageContents">
         <div class="CardContainer">
 
-            <div class="Card Word thiccborder">
-                <div class="CardHeader">
+            <div class="Card Word thiccborder CardSize">
+                <div class="CardMain">
 
+                    <div class="CardHeader">
+                        <h1>ninja</h1>
+                    </div>
+                    <div class="CardBody">
+                        <p>noun <br> Plural: <i>ninjas</i>  </p>
+                    </div>
+                    <div class="CardButton">
+                        <button class="Likes Centered border shadow yellow" id="like1" onclick="like()"> 13 likes </button>
+                    </div>
                 </div>
-                <div class="CardBody">
-
+                <div class="CardDefinition">
+                    <p>A practitioner skilled in the <br> <a href="Japanese"> Japanese</a> art of <a href="Ninjutsu">ninjustsu</a> </p>
                 </div>
             </div>
-            <div class="Card Word thiccborder">
-    
+            <div class="Card Word thiccborder CardSize">
+                <div class="CardMain">
+
+                    <div class="CardHeader">
+                        <h1>ninja</h1>
+                    </div>
+                    <div class="CardBody">
+                        <p>noun <br> Plural: <i>ninjas</i>  </p>
+                    </div>
+                    <div class="CardButton">
+                        <button class="Likes Centered border shadow yellow" id="like2" onclick="like()"> 37 likes </button>
+                    </div>
+                </div>
+                <div class="CardDefinition">
+                    <p>A <a href="programmer">programmer</a> who breaks down problems with <a href="zen">zen</a>-like focus </p>
+                </div>
             </div>
         </div>
-        <div class="Card AddDefine thiccborder">
-        
+        <div class="AddDefine thiccborder">
+            <p>Dojonary is <br> defined by <b>YOU</b> </p>
+            <button class="Centered border shadow green" id="definebutton" onclick="doremove()"> Add Definition</button>
         </div>
     </div>
 </body>

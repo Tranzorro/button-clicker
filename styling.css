@@ -46,12 +46,15 @@ body{
     color: white;
     border-radius: 0%;
     /* border: 2px solid black; */
-    box-shadow: 2px 2px 2px black;
+    
     transform: scale(1.5);
     right: 0px;
     margin-top: 5%;
     margin-right: 20%;
     position: inherit;
+}
+.shadow{
+    box-shadow: 4px 4px 2px black;
 }
 .SearchBar{
     width: max-content;
@@ -63,9 +66,13 @@ body{
     margin-left: 33%;
     margin-top: 3%;
 }
+
 .Card{
     /* border: 5px black solid; */
     margin-top: 20px;
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .Word{
     width: 100%;
@@ -73,8 +80,29 @@ body{
 }
 .AddDefine{
     width: 60%;
-    height: 25%;
+    height: 22%;
     margin-left: 40px;
+    margin-top: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.AddDefine p{
+    margin-left: 20px;
+    font-size: 30px;
+}
+.AddDefine button{
+    width: 90%;
+    /* height: 50%; */
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: large;
+}
+.green {
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
 }
 .Centered{
     justify-content: center;
@@ -85,4 +113,37 @@ body{
 }
 .thiccborder{
     border: 5px solid black;
+}
+.CardDefinition{
+    width: 80%;
+    justify-content: center;
+    /* justify-self: center; */
+    /* text-align: center; */
+}
+.CardMain{
+    /* margin-left: 5%; */
+    padding-left: 2%;
+    padding-bottom: 20px;
+}
+.CardHeader h1{
+    text-align: center;
+}
+.CardBody p{
+    width: 100px;
+    text-align: center;
+}
+.CardDefinition p{
+    text-align: left;
+    font-size: 150%;
+    margin-top: 20%;
+    margin-left: 5%;
+}
+.CardButton button{
+    margin-left: 5%;
+    margin-top: 15%;
+    width: 100%;
+    font-size: large;
+}
+.CardSize{
+    height: max-content;
 }
